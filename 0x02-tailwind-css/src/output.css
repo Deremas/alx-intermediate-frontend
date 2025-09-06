@@ -5,6 +5,9 @@
 .grid {
   display: grid;
 }
+.h-1\/2 {
+  height: calc(1/2 * 100%);
+}
 .h-auto {
   height: auto;
 }
@@ -23,6 +26,9 @@
 .w-full {
   width: 100%;
 }
+.flex-1 {
+  flex: 1;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -32,8 +38,20 @@
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
 .justify-center {
   justify-content: center;
+}
+.object-contain {
+  object-fit: contain;
+}
+.text-center {
+  text-align: center;
 }
 @media (max-width: 768px) {
   main {
